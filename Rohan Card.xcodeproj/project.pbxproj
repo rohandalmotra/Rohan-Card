@@ -11,6 +11,8 @@
 		4B640AB3288159DC00C9ED30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B640AB2288159DC00C9ED30 /* ContentView.swift */; };
 		4B640AB5288159DF00C9ED30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B640AB4288159DF00C9ED30 /* Assets.xcassets */; };
 		4B640AB8288159DF00C9ED30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B640AB7288159DF00C9ED30 /* Preview Assets.xcassets */; };
+		4B640AC028815A2F00C9ED30 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B640ABF28815A2F00C9ED30 /* Pacifico-Regular.ttf */; };
+		4BD667E42881662C00BEB857 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD667E32881662C00BEB857 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		4B640AB2288159DC00C9ED30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B640AB4288159DF00C9ED30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B640AB7288159DF00C9ED30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B640ABF28815A2F00C9ED30 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		4BD667E228815CD700BEB857 /* Rohan-Card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Rohan-Card-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4BD667E32881662C00BEB857 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +56,10 @@
 		4B640AAF288159DC00C9ED30 /* Rohan Card */ = {
 			isa = PBXGroup;
 			children = (
+				4BD667E228815CD700BEB857 /* Rohan-Card-Info.plist */,
+				4B640ABE28815A1900C9ED30 /* fonts */,
 				4B640AB0288159DC00C9ED30 /* Rohan_CardApp.swift */,
+				4BD667E32881662C00BEB857 /* InfoView.swift */,
 				4B640AB2288159DC00C9ED30 /* ContentView.swift */,
 				4B640AB4288159DF00C9ED30 /* Assets.xcassets */,
 				4B640AB6288159DF00C9ED30 /* Preview Content */,
@@ -65,6 +73,14 @@
 				4B640AB7288159DF00C9ED30 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B640ABE28815A1900C9ED30 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4B640ABF28815A2F00C9ED30 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B640AC028815A2F00C9ED30 /* Pacifico-Regular.ttf in Resources */,
 				4B640AB8288159DF00C9ED30 /* Preview Assets.xcassets in Resources */,
 				4B640AB5288159DF00C9ED30 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B640AB3288159DC00C9ED30 /* ContentView.swift in Sources */,
+				4BD667E42881662C00BEB857 /* InfoView.swift in Sources */,
 				4B640AB1288159DC00C9ED30 /* Rohan_CardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +288,7 @@
 				DEVELOPMENT_TEAM = 8W3CP283X5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rohan-Card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,7 @@
 				DEVELOPMENT_TEAM = 8W3CP283X5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rohan-Card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
